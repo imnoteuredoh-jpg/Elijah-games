@@ -2,107 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neruvy Games</title>
-    <link rel="icon" href="neruvy-games-logo.png" type="image/png" />
+
+    <link rel="icon" href="images/neruvy-games-logo.png" type="image/png">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
 </head>
 <body>
-    <nav>
-        <img src="images/neruvy-games-logo.png" alt="logo">
-        <h1>Neruvy Games</h1>
-    </nav>
 
-    <div class="featured">
-        <h1>Popular:</h1>
-        <div class="column">
-          <a href="games/snow-rider/">
+<nav class="navbar">
+    <img src="images/neruvy-games-logo.png" alt="Neruvy Games Logo">
+    <h1>Neruvy Games</h1>
+</nav>
+
+<section class="featured">
+    <h2>Popular</h2>
+
+    <div class="featured-grid">
+        <a class="game-card" href="games/snow-rider/">
             <img src="images/snow-rider.png">
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-          <a href="games/granny/">
+            <span class="play-button"><i class="fa-solid fa-play"></i></span>
+        </a>
+
+        <a class="game-card" href="games/granny/">
             <img src="images/granny.png">
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-        </div>
-        <div class="row">
-          <a href="https:/neruvy.github.io/Funkin-HTML-Port/">
+            <span class="play-button"><i class="fa-solid fa-play"></i></span>
+        </a>
+
+        <a class="game-card wide" href="https://neruvy.github.io/Funkin-HTML-Port/">
             <img src="images/fridaynightfunkin.png">
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-        </div>
-        <div class="row">
-          <a href="https://neruvy.github.io/Eaglercraft/">
+            <span class="play-button"><i class="fa-solid fa-play"></i></span>
+        </a>
+
+        <a class="game-card wide" href="https://neruvy.github.io/Eaglercraft/">
             <img src="images/mc.png">
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-            </a>
-        </div>
-        <div class="column">
-          <a href="games/moto-x3m/">
+            <span class="play-button"><i class="fa-solid fa-play"></i></span>
+        </a>
+
+        <a class="game-card" href="games/moto-x3m/">
             <img src="images/moto-x3m.jpg">
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-          <a href="games/survival-race/">
+            <span class="play-button"><i class="fa-solid fa-play"></i></span>
+        </a>
+
+        <a class="game-card" href="games/survival-race/">
             <img src="images/survival-race.png">
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-        </div>
-        </div>
+            <span class="play-button"><i class="fa-solid fa-play"></i></span>
+        </a>
     </div>
+</section>
 
-    <div class="content">
+<hr>
 
-    <hr>
+<div class="search">
+    <input type="text" placeholder="Search games...">
+    <button><i class="fas fa-search"></i></button>
+</div>
 
-    <div class="search">
-        <input type="text" placeholder="Search..." oninput="">
-        <button><i class="fas fa-search"></i></button>
-    </div>
-
-    <div id="games">
-        <a href="games/bob-the-robber-2/"><img src="images/bob-the-robber-2.png" alt="bob the robber 2"></a>
-        <a href="games/vex3/"><img src="images/vex3.jpg" alt="vex 3"></a>
-        <a href="games/vex4/"><img src="images/vex4.jpg" alt="vex 4"></a>
-        <a href="games/vex5/"><img src="images/vex5.jpg" alt="vex 5"></a>
-        <a href="games/vex7/"><img src="images/vex7.jpeg" alt="vex 7"></a>
-        <a href="games/vex6/"><img src="images/vex6.jpeg" alt="vex 6"></a>
-        <a href="https://neruvy.github.io/Eaglercraft/"><img src="images/mc.png" alt="minecraft"></a>
-        <a href="games/moto-x3m/"><img src="images/moto-x3m.jpg" alt="moto x3m"></a>
-        <a href="games/retro-bowl/"><img src="images/retro-bowl.jpg" alt="retrobowl"></a>
-        <a href="games/drive-mad/"><img src="images/drive-mad.jpg" alt="drive mad"></a>
-        <a href="games/slope/"><img src="images/slope.jpg" alt="slope"></a>
-        <a href="games/motox3m2/"><img src="images/motox3m2.jpg" alt="moto x3m2"></a>
-        <a href="https://neruvy.github.io/Funkin-HTML-Port/"><img src="images/fridaynightfunkin.png" alt="friday night funkin'"></a>
-        <a href="https://neruvy.github.io/A-Dance-Of-Fire-And-Ice/"><img src="images/a-dance-of-fire-and-ice.jpg" alt="a dance of fire and ice"></a>
-        <a href="games/survival-race/"><img src="images/survival-race.png" alt="survival race"></a>
-        <a href="games/ARC/"><img src="images/ARC.png" alt="ARC"></a>
-        <a href="games/granny/"><img src="images/granny.png" alt="granny"></a>
-        <a href="games/repo/"><img src="images/repo.png" alt="repo"></a>
-        <a href="games/snow-rider/"><img src="images/snow-rider.png" alt="snow rider"></a>
-        <a href="games/smash-karts/"><img src="images/smash-karts.png" alt="smash karts"></a>
-        <a href="games/time-shooter-3-swat/"><img src="images/time-shooter-3-swat.jpg" alt="time shooter 3 swat"></a>
-        <a href="games/run-3/"><img src="images/run-3.png" alt="run 3"></a>
-        <a href="games/poly-track/"><img src="images/poly-track.jpg" alt="poly track"></a>
-    </div>
-</body>
-</html>
-
+<section id="games" class="games-grid">
+    <a href="games/bob-the-robber-2/"><img src="images/bob-the-robber-2.png"></a>
+    <a href="games/vex3/"><img src="images/vex3.jpg"></a>
+    <a href="games/vex4/"><img src="images/vex4.jpg"></a>
+    <a href="games/vex5/"><img src="images/vex5.jpg"></a>
+    <a href="games/vex7/"><img src="images/vex7.jpeg"></a>
+    <a href="games/vex6/"><img src="images/vex6.jpeg"></a>
+    <a href="games/moto-x3m/"><img src="images/moto-x3m.jpg"></a>
+    <a href="games/retro-bowl/"><img src="images/retro-bowl.jpg"></a>
+    <a href="games/drive-mad/"><img src="images/drive-mad.jpg"></a>
+    <a href="games/slope/"><img src="images/slope.jpg"></a>
+    <a href="games/run-3/"><img src="images/run-3.png"></a>
+</section>
 
 <script src="script.js"></script>
+</body>
+</html>
 
 
 
